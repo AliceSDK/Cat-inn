@@ -1,14 +1,11 @@
-.header{
-        background-color: #FAE0B9;
-}
-
-.title{
+*{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 75px;
-    color: rgba(0, 0, 0, 0.6);
+    font-weight: normal;
+}
+
+.header{
+        background-color: #FAE0B9;
 }
 
 .container{
@@ -29,10 +26,7 @@
 }
 
 .navigation__item{
-    font-family: 'Roboto', sans-serif;
     margin-right: 112px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 48px;
     line-height: 56px;
     text-decoration: none;
@@ -45,6 +39,51 @@
 }
 .social-link{
     margin-right: 36px;
+}
+
+.preview{
+    background-color: #FAE0B9;
+    padding-top: 75px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+}
+
+.title{
+    margin: 0;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.text_md{
+    margin: 0;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.text_reg{
+    margin-top: 64px;
+    margin-bottom: 7px;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.button{
+    padding: 12px 17px 12px 17px;
+    background-color: #FF8A00;
+    border-radius: 7px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
 }
 
 .section{
