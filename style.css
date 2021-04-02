@@ -4,6 +4,12 @@
     font-weight: normal;
 }
 
+body{
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .header{
         background-color: #FAE0B9;
 }
